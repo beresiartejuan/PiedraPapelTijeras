@@ -5,10 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./estilos.css">
 </head>
 
-<body>
-    <script src="/juego.js"></script>
+<body class="app-body">
+
+    <main class="main-content">
+
+        <section class="round-section">
+
+            <span class="round-info" id="round">
+                RONDA: 1
+            </span>
+
+            <span class="score-label">PC - Tú</span>
+            <span class="score" id="score">0 - 0</span>
+
+        </section>
+
+        <section class="waiting-message">
+            <span id="pc-message">La PC te está esperando...</span>
+        </section>
+
+        <section class="choices-section">
+            <div class="choice" id="tijera">
+                ✂️
+            </div>
+
+            <div class="choice" id="piedra">
+                🪨
+            </div>
+
+            <div class="choice" id="papel">
+                📄
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./juego.js"></script>
 </body>
+
 
 </html>

@@ -1,0 +1,112 @@
+.app-body {
+    background-color: #1f2937;
+    /* bg-gray-800 */
+    min-width: 100%;
+    /* min-w-full */
+    font-family: monospace;
+    /* font-mono */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-center text-center */
+    max-width: fit-content;
+    /* max-w-fit */
+    max-height: fit-content;
+    /* max-h-fit */
+    margin: 20vh auto 0;
+    /* mt-[20vh] */
+}
+
+.round-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-center */
+    gap: 8px;
+    /* gap-2 */
+    max-width: fit-content;
+    /* max-w-fit */
+}
+
+.round-info {
+    display: inline-block;
+    max-width: fit-content;
+    /* max-w-fit */
+    margin: 0 auto 16px;
+    /* mx-auto mb-4 */
+    padding: 8px 16px;
+    /* px-[1rem] py-[.5rem] */
+    border: 3px solid #4f46e5;
+    /* border-indigo-700 */
+    border-style: solid;
+    border-radius: 0.5rem;
+    /* rounded-lg */
+    font-size: 1.3rem;
+    /* text-[1.3rem] */
+    font-weight: 600;
+    /* font-semibold */
+    color: #e5e7eb;
+    /* text-gray-200 */
+}
+
+.score-label,
+.score {
+    display: inline-block;
+    font-size: 1.3rem;
+    /* text-[1.3rem] */
+    font-weight: 600;
+    /* font-semibold */
+    color: #e5e7eb;
+    /* text-gray-200 */
+}
+
+.waiting-message {
+    margin: 3rem auto;
+    /* my-[3rem] */
+    font-size: 1.3rem;
+    /* text-[1.3rem] */
+    font-weight: 600;
+    /* font-semibold */
+    color: #e5e7eb;
+    /* text-gray-200 */
+    display: inline-block;
+}
+
+.choices-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-center */
+    align-items: center;
+    /* items-center */
+    text-align: center;
+    max-width: 80vw;
+    /* max-w-[80vw] */
+    gap: 24px;
+    /* gap-6 */
+}
+
+.choice {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    /* items-center */
+    justify-content: center;
+    /* justify-center */
+    width: 4rem;
+    /* w-[4rem] */
+    height: 4rem;
+    /* h-[4rem] */
+    border: 3px solid #4f46e5;
+    /* border-indigo-700 */
+    border-style: solid;
+    border-radius: 0.5rem;
+}
+
+.choice:hover {
+    cursor: pointer;
+    box-shadow: #e5e7eb 0 0 5px;
+}

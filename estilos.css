@@ -52,6 +52,11 @@
     /* text-gray-200 */
 }
 
+.score-label {
+    padding: 8px 16px;
+    text-align: center;
+}
+
 .score-label,
 .score {
     display: inline-block;

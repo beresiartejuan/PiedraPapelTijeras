@@ -15,17 +15,16 @@
 
         <section class="round-section">
 
-            <span class="round-info" id="round">
-                RONDA: 1
+            <span class="round-info" id="round" base="RONDA: $1">
+                RONDA: X
             </span>
 
-            <span class="score-label">PC - Tú</span>
-            <span class="score" id="score">0 - 0</span>
+            <span class="score-label" id="score-label"></span>
 
         </section>
 
         <section class="waiting-message">
-            <span id="pc-message">La PC te está esperando...</span>
+            <span id="pc-message" base="$1">...</span>
         </section>
 
         <section class="choices-section">
@@ -44,7 +43,8 @@
 
     </main>
 
-    <script src="./juego.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/node-uuid/1.4.7/uuid.min.js"></script>
+    <script src="./game.js"></script>
 </body>
 
 
